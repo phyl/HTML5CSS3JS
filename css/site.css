@@ -1,0 +1,122 @@
+.fieldset {
+  padding-top:48px; /*legend height(18px) + top value(15px) + bottom spacing(15px) */
+  position:relative;
+}
+
+.textarea-group {
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-group-addon {
+    min-width:150px; 
+    text-align:left;
+}
+
+.carousel-control {
+    text-shadow: none;
+    opacity: 0;
+}
+
+.footer-bg {
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: #003;
+    color: #fff;
+}
+
+fieldset.scheduler-border {
+    border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+    width: 100% !important;
+}
+
+legend.scheduler-border {
+    width: auto !important;
+    border: none;
+}
+
+.call > li > a{
+    color: #fff;
+}
+
+#mainHeader {
+    height:100%;
+}
+
+.headerlogo {
+    margin-right: 10px;
+}
+
+    .headerlogo > img {
+        height: auto;
+        width: auto;
+    }
+
+#headername {
+    font-size: 30px;
+    color: #333;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+    font-family: sans-serif Arial;
+}
+
+.searchbox {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+.motto {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 100%;
+    font-style: italic;
+    font-size: 20px;
+    font-family: Monotype Corsiva;
+}
+
+.topnav{
+    background-color: #003;
+    overflow: hidden;
+    width: 100%;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link {
+    color: #99cc00;
+    text-decoration: none;
+}
+
+.nav>li>a {
+    padding: 10px 20px;
+}
+
+#myBtn {
+  display: none;
+  position: sticky;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  color: #000;
+  text-shadow: none;
+}
+

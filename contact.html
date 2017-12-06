@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Eaglink Web Developers</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+  <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="page">
+
+
+<header id="mainHeader" class="container">
+  <div id="menu" class="navbar">
+  <div> 
+      <img src="images/logo.png" /><span id="headername" 
+      > Web Developers</span>
+        <input type="search" class="searchbox pull-right" placeholder="Search our site" name="">
+        <span class="motto row"> ... keeping an eagle's eye.</span>
+
+
+    <div class="topnav ">
+      <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"></span></button>
+
+    <div class="navbar-collapse collapse">
+    <div class="row">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="nav active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li class="nav"><a href="about.html"><span class="glyphicon glyphicon-book"></span> About</a></li>
+        <li class="nav"><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+        <li class="nav"><a href="order-form.html"><span class="glyphicon glyphicon-check"></span> Order Form</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="#"><span class="glyphicon glyphicon-earphone"></span><span class="call">  Call us on: +27 79 775 2724</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span><span class="call"> Sign Up</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> <span class="call"> Login</span></a></li>
+<!--         <li class="nav"><a href="contact.html"><span class="call"> Messages </span> <span class="badge">15</span></a></li> -->
+      </ul>
+    </div>
+  </div>
+  </div>
+ </div>   
+</header>
+
+<div id="body" class="container">
+<div class="col-md-6">
+  <form class="form-horizontal" id="mainForm" action="" method="post" autocomplete="on">            
+      <fieldset class="scheduler-border">
+          <legend class="scheduler-border">Contact us via email</legend>
+
+          <p>We are located in the heart of Pretoria, South Africa
+            <br><strong>Phone No.: </strong>+27 000 0000
+            <br><strong>Address: </strong>No. 00 Schoeman Street, Pretoria, 0082
+            <br>Alternatively, you can contact us via email by feeling the following form.</p>
+
+<p>          <div class="form-group">
+              <div  class="control-label col-md-12">
+              <div class="input-group col-xs-12">
+                <span class="input-group-addon">Your Name</span>
+                <input id="NameInput" name="FirstName" type="text" autofocus="autofocus" class="form-control" maxlength="30" required="required" placeholder="Please enter your first name" />
+              </div>
+
+          </div>
+        </div>
+      </p>
+
+<p>          <div class="form-group">
+              <div  class="control-label col-md-12">
+              <div class="input-group col-xs-12">
+                <span class="input-group-addon">Your Email</span>
+                <input id="emailNameInput" type="Email" class="form-control" required="required" placeholder="Please enter your email address"  />
+                </div>
+            </div>
+
+          </div>
+</p>
+          <div class="form-group">
+              <div  class="control-label col-md-12">
+              <div class="input-group col-xs-12">
+                <span class="input-group-addon">Subject</span>
+              <input id="subjectInput" type="text" name="Phone Number" class="form-control"  required="required" placeholder="Please enter your subject" />
+            </div>
+          </div>
+
+          </div>
+          <div class="form-group">
+              <div  class="control-label col-md-12">
+              <div class="input-group col-xs-12">
+                <span class="input-group-addon">Your Message</span>
+
+              <textarea class="form-control">
+              </textarea>
+            </div>
+          </div>
+
+          </div>
+
+
+      <div class="form-group">
+        <div class="col-md-9 col-md-offset-3">
+            <input type="submit" class="submitbutton btn-success" value="Submit" name=""></div>
+      </div>
+      </fieldset>
+
+  </form>
+</div>
+<br>
+<br>
+
+<div class="col-md-9">           
+      <fieldset class="scheduler-border">
+          <legend class="scheduler-border">Directions to our office</legend>
+
+<p>          <div id="googleMap" style="width:100%;height:400px;"></div>
+
+      </p>
+
+</fieldset>
+
+</div>
+
+
+<footer class="container footer-bg container col-sm-12 col-md-12">
+  
+  <div class="col-sm-3 col-md-3">&copy; <span id="date"></span> The Eaglink. All Rights Reserved</div>
+  <div class="col-sm-6 col-md-6">Website designed by <a href="#" class="link">The Eaglink Web Developers</a></div>
+  <div class="col-sm-3 col-md-3">
+    <button class="btn-success  btn-xs pull-right row" onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up "></span></button></div>
+ 
+</footer>
+</div>
+
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/site.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM9JF7x5dz7-5-onrKO4kd-1QpIsgyKxY&callback=myMap"></script>
+
+
+</body>
+</html>
+
